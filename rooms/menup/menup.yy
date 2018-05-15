@@ -2,7 +2,7 @@
 {
     "name": "menup",
     "id": "1f766de8-aacb-42fa-adfe-54a94eb984fd",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
