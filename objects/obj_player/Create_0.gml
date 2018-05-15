@@ -4,5 +4,8 @@
 hsp = 0;
 vsp = 0;
 movesp = 2;
+global.net = 0;
+global.pouet = 0;
 
 nickname = variable_global_get("nick");
+client = variable_global_get("clt");

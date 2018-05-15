@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2781f1af-d27d-46e6-af15-197d75905cd5",
+            "Value": {
+                "id": "37ce1d4d-3406-485d-a9bc-2994c8c8752c",
+                "resourcePath": "fonts\\font_inv_desc\\font_inv_desc.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "29468af1-dcc5-46d2-ab24-9994e2b096d1",
             "Value": {
                 "id": "1e5fd1a2-a411-4924-91d9-f1dbd3465ba0",

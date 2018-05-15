@@ -7,4 +7,6 @@
 	with (o_savemessage) {
 		saveConfirm = true;
 	}
-	room_goto(menupause);
+	
+	global.pause = 1;
+	if(global.pouet == 1) room_goto(menupause);

@@ -20,12 +20,14 @@ if(piloy == 0){
         if(server >= 0 && client >= 0){
         
             //Goes to the "connected" menu.
+			
             piloy = 2;
         
         }else{
         
             //Displays an error message.
             show_message("Unable to create server!");
+			global.net = 0;
         
         }
     
@@ -51,12 +53,14 @@ if(piloy == 0){
     if(client >= 0){
     
         //Goes to the "connected" menu.
+		
         piloy = 2;
     
     }else{
     
         //Displays an error message and goes back to the "host/join" menu.
         show_message("Unable to connect to server!");
+		global.net = 0;
         piloy = 0;
     
     }
@@ -69,6 +73,7 @@ if(piloy == 0){
     
         //Displays an error message and goes back to the "host/join" menu.
         show_message("Lost connection to server!");
+		global.net = 0;
         piloy = 0;
         
         //Destroyes our client and frees it up from memory.
@@ -81,6 +86,7 @@ if(piloy == 0){
     
             //Displays an error message and goes back to the "host/join" menu.
             show_message("Server is full!");
+			global.net = 0;
             piloy = 0;
             
             //Destroyes our client and frees it up from memory.
@@ -92,6 +98,7 @@ if(piloy == 0){
             if(keyboard_check_pressed(ord("S"))){
             
                 //Goes to the game room.
+				global.net = 1;
                 piloy = 3;
                 room_goto(depart01);
                 
@@ -122,10 +129,14 @@ if(piloy == 0){
         ////Destroyes our client and frees it up from memory.
         znet_client_destroy(client);
     
-    }else{
+    }else if (global.pause == 1){
+		znet_entity_destroy(nickname);
+		global.pouet = 1;
+	}else{
     
         //Updates the 'x' and 'y' positions for our player.
-        znet_entity_set_keys(nickname, "x", obj_player.x, "y", obj_player.y);
+		if (global.pause == 0)
+			znet_entity_set_keys(nickname, "x", obj_player.x, "y", obj_player.y);
     
     }
 

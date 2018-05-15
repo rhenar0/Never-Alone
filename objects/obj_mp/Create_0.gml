@@ -4,6 +4,9 @@ piloy = 0;
 //This will store the server and client objects.
 server = -1;
 client = -1;
+variable_global_set("clt", client);
+
+global.pause = 0;
 
 //Chooses a random name for the player.
 randomize();

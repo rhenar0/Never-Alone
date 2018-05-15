@@ -54,7 +54,8 @@ if(pickup_slot != -1) {
 					}
 			
 					// Créer l'item
-					var inst = instance_create_layer(joueurtest.x, joueurtest.y, "Instances", obj_item);
+					// var inst = instance_create_layer(joueurtest.x, joueurtest.y, "Instances", obj_item);
+					znet_entity_create("obj","item","x", obj_player.x, "y", obj.player.y, "item_num", pitem, "x_frame", item_num mod (spr_width/cell_size), "y_frame", item_num div (spr_width/cell_size));
 					with(inst){
 						item_num = pitem;
 						x_frame = item_num mod (spr_width/cell_size);
