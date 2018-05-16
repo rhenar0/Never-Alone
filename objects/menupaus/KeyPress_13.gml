@@ -15,6 +15,7 @@ switch (menu_index) {
 	
 	case 1:
 	room_goto(menup);
+	global.menu = true;
 	break;
 	
 }

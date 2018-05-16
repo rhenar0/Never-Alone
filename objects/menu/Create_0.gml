@@ -1,7 +1,8 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-
+global.menu = true;
+global.pause = 1;
 menu_x = x;
 menu_y = y;
 button_h = 52;

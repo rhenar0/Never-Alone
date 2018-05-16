@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(vk_tab)) { show_inventory = !show_inventory;
+if(keyboard_check_pressed(vk_tab) && (global.pause = 0) && (global.pouet = 0) && (global.menu = false)) { show_inventory = !show_inventory;
 									 audio_play_sound(snd_menu_switch, 1, false);
 									
 								   } 
