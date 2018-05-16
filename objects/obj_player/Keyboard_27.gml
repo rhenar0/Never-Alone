@@ -8,5 +8,4 @@
 		saveConfirm = true;
 	}
 	
-	global.pause = 1;
-	if(global.pouet == 1) room_goto(menupause);
+	room_goto(menupause);

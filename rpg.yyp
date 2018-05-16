@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "6d9b1cd5-f645-490b-a005-23c7d13aef3c",
+            "Value": {
+                "id": "dff8fd2f-ae40-4ae2-92a7-037d6e3f42e8",
+                "resourcePath": "notes\\ErreurMP.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "6f5228cb-51b6-49cd-9571-a5887d04ce24",
             "Value": {
                 "id": "b5e6ef6a-ccda-485b-ab67-2391b54e70f5",

@@ -100,7 +100,8 @@ if(piloy == 0){
                 //Goes to the game room.
 				global.net = 1;
                 piloy = 3;
-                room_goto(depart01);
+                room_goto(4);
+				global.roomPly = depart01;
                 
                 //Creates a new player entity and sets the 'x' and 'y' positions.
                 znet_entity_create("player", nickname, "x", 0, "y", 0);
@@ -129,14 +130,10 @@ if(piloy == 0){
         ////Destroyes our client and frees it up from memory.
         znet_client_destroy(client);
     
-    }else if (global.pause == 1){
-		znet_entity_destroy(nickname);
-		global.pouet = 1;
 	}else{
     
         //Updates the 'x' and 'y' positions for our player.
-		if (global.pause == 0)
-			znet_entity_set_keys(nickname, "x", obj_player.x, "y", obj_player.y);
+		znet_entity_set_keys(nickname, "x", obj_player.x, "y", obj_player.y);
     
     }
 

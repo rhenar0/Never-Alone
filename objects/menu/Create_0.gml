@@ -2,7 +2,7 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 global.menu = true;
-global.pause = 1;
+global.MPLaunch = 0;
 menu_x = x;
 menu_y = y;
 button_h = 52;
@@ -10,9 +10,9 @@ button_h = 52;
 
 button[0] = "Jouer";
 button[1] = "Continuer";
-button[2] = "Language";
-button[4] = "Multijoueur";
-button[3] = "Quitter";
+button[2] = "Multijoueur";
+button[3] = "Language";
+button[4] = "Quitter";
 buttons = array_length_1d(button);
 
 menu_index = 0;

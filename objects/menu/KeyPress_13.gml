@@ -24,16 +24,16 @@ switch (menu_index) {
 	
 	
 	
-	case 2:
+	case 3:
 	audio_play_sound(snd_menu_switch, 1, false);
 	show_message("Pas encore disponible !");
 	break;
 
-	case 3:
+	case 4:
 	game_end();
 	break;
 	
-	case 4:
+	case 2:
 	room_goto(rm_menu)
 	
 	

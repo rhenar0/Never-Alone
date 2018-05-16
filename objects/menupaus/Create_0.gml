@@ -7,9 +7,12 @@ button_h = 52;
 
 
 button[0] = "Reprendre";
-button[1] = "Retour au menu";
+button[1] = "Quitter Never Alone";
 
 buttons = array_length_1d(button);
 
 menu_index = 0;
 last_selected = 0;
+
+client = variable_global_get("clt");
+nickname = variable_global_get("nick");
