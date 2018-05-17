@@ -3,7 +3,7 @@
 
 switch (menu_index) {
 	
-	case 0:
+	case 0:/*
 	audio_play_sound(snd_menu_switch, 1, false);
 	if (global.Save) game_load("Save.dat");
 	instance_create_layer(850,25,"TextBoxLayer", o_savemessage);
@@ -12,7 +12,7 @@ switch (menu_index) {
 	}
 	room_goto(4);
 	show_debug_message(global.roomPly);
-	break;
+	*/break;
 	
 	
 	case 1:
