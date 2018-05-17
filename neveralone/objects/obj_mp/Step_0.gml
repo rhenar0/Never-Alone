@@ -100,7 +100,7 @@ if(piloy == 0){
                 //Goes to the game room.
 				global.net = 1;
                 piloy = 3;
-                room_goto(4);
+                room_goto(depart01);
 				global.roomPly = depart01;
                 
                 //Creates a new player entity and sets the 'x' and 'y' positions.

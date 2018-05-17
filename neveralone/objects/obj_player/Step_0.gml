@@ -9,16 +9,16 @@ var toucheactiver = vk_nokey;
 
 if keyboard_check(ord("Q")) && (global.inventaire = false) && (global.menu = false) then {
 	x -= 5
-	if (global.net == 1) znet_entity_set_keys(nickname, "touch", 2);
+	znet_entity_set_keys(nickname, "touch", 2);
 	toucheactiver = true}
 if keyboard_check(ord("D")) && (global.inventaire = false) && (global.menu = false) then { x += 5
-	if (global.net == 1) znet_entity_set_keys(nickname, "touch", 1);
+	znet_entity_set_keys(nickname, "touch", 1);
 	toucheactiver = true}
 if keyboard_check(ord("S")) && (global.inventaire = false) && (global.menu = false) then { y += 5
-	if (global.net == 1) znet_entity_set_keys(nickname, "touch", 4);
+	znet_entity_set_keys(nickname, "touch", 4);
 	toucheactiver = true}
 if keyboard_check(ord("Z")) && (global.inventaire = false) && (global.menu = false) then { y -= 5
-	if (global.net == 1) znet_entity_set_keys(nickname, "touch", 3);
+	znet_entity_set_keys(nickname, "touch", 3);
 	toucheactiver = true}
 	
 
