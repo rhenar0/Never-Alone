@@ -13,14 +13,6 @@ switch (menu_index) {
 	case 1:
 	audio_play_sound(snd_menu_switch, 1, false);
 	room_goto(rm_menu);
-	if (global.Save) {
-		game_load("Save.dat");
-		global.menu = false;
-		}
-	instance_create_layer(850,25,"TextBoxLayer", o_savemessage);
-	with (o_savemessage) {
-		loadConfirm= true;
-	}
 	global.createParty = true;
 	global.loadParty = true;
 	

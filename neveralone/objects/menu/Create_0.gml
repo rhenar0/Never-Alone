@@ -2,6 +2,7 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 global.menu = true;
+global.sauvegarde = false;
 global.MPLaunch = 0;
 global.joinParty = false;
 global.createParty = false;

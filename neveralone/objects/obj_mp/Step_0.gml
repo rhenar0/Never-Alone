@@ -75,7 +75,7 @@ if(global.createParty == true){
 				global.net = 1;
                 piloy = 3;
                 room_goto(depart01);
-				global.roomPly = depart01;
+				global.roomPly = room_goto(depart01);
 				name = variable_global_get("nick");
                 
                 znet_entity_create("player", name, "x", 0, "y", 0);
