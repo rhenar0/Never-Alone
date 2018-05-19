@@ -73,13 +73,26 @@ if(global.createParty == true){
             if(keyboard_check_pressed(ord("S"))){
                 
 				global.net = 1;
-                piloy = 3;
-                room_goto(depart01);
-				global.roomPly = room_goto(depart01);
-				name = variable_global_get("nick");
                 
-                znet_entity_create("player", name, "x", 0, "y", 0);
+				name = variable_global_get("nick");
+				
+                if (global.continue == true){
+					show_debug_message("OK Sauvegarde");
+					global.nickplayer = name;
+					ini_load("save_data.ini");
+					znet_entity_create("player", name, "x", global.start_x, "y", global.start_y);
+					global.createPlayer = true;
+				}else{
+					show_debug_message("Problème Sauvegarde");
+					global.nickplayer = name;
+					room_goto(depart01);
+					znet_entity_create("player", name, "x", 0, "y", 0);
+					global.createPlayer = true;
+				}
+                
                 znet_entity_attach_client(name, client);
+				global.continue = false;
+				piloy = 3;
             
             }
         
@@ -90,12 +103,12 @@ if(global.createParty == true){
 //Jeu
 }else if(piloy == 3){
 	name = variable_global_get("nick");
-
+	
     if(znet_client_get_state(client) == "client_timeout"){
     
         show_message("Connexion au serveur perdu !");
         piloy = 0;
-        room_goto(rm_menu);
+        room_goto(menup);
         
         znet_client_destroy(client);
     

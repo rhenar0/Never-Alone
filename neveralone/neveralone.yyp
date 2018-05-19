@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "8bd20379-91bb-4cc9-a3a7-7bdc50617038",
+            "Value": {
+                "id": "0f595f66-748c-4cbc-aaa7-34cffc796893",
+                "resourcePath": "views\\8bd20379-91bb-4cc9-a3a7-7bdc50617038.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8da2edee-b2bc-48f8-9211-f61ce8d5af4a",
             "Value": {
                 "id": "7a7e5277-4ce9-43b5-af1b-3a90c15b79c4",
@@ -839,6 +847,14 @@
             }
         },
         {
+            "Key": "db8ffb70-345d-4a23-ba5a-625af4fe5d62",
+            "Value": {
+                "id": "758b37c9-6d15-4423-a942-40023fb1d4e3",
+                "resourcePath": "views\\db8ffb70-345d-4a23-ba5a-625af4fe5d62.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dca920c5-2f94-4dfc-a304-02fc7919f0e5",
             "Value": {
                 "id": "00c3abc1-c3d9-4ef3-9dd1-4249482c77d4",
@@ -855,6 +871,14 @@
             }
         },
         {
+            "Key": "e1a4af20-072a-44e1-9635-034e1eef49d3",
+            "Value": {
+                "id": "b36cb73f-85ee-4333-8358-425a0a631760",
+                "resourcePath": "views\\e1a4af20-072a-44e1-9635-034e1eef49d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e2d0c235-f63a-4a8b-ab2e-8ac9d20c1db7",
             "Value": {
                 "id": "101d8ce6-6e10-4c2e-aa08-f0a2ace4bb59",
@@ -867,6 +891,14 @@
             "Value": {
                 "id": "018f4551-57f8-4b98-b95f-4d8782b231c5",
                 "resourcePath": "scripts\\znet_entity_attach_client\\znet_entity_attach_client.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e7cfff96-d198-42a8-b3fe-82973b6471fe",
+            "Value": {
+                "id": "cd3c0491-de09-4482-ac3b-0a20c36251e5",
+                "resourcePath": "scripts\\ini_load_pos\\ini_load_pos.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1068,7 +1100,8 @@
         "bfc2c068-230f-487e-84cc-feb3ccc009a6",
         "17a2b451-9a61-4bb9-b7cf-924ab403fbf1",
         "89d03509-e66f-49e3-a9da-503f016aa266",
-        "781a13c1-830d-49b2-b95b-230da7c55d49"
+        "781a13c1-830d-49b2-b95b-230da7c55d49",
+        "e7cfff96-d198-42a8-b3fe-82973b6471fe"
     ],
     "tutorial": ""
 }

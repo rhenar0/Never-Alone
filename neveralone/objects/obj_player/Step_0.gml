@@ -2,6 +2,7 @@
 // Vous pouvez écrire votre code dans cet éditeur
 
 
+
 // Récupération touches du clavier
 
 var toucheactiver = vk_nokey;
@@ -21,7 +22,6 @@ if keyboard_check(ord("Z")) && (global.menu = false) then { y -= 5
 	znet_entity_set_keys(nickname, "touch", 3);
 	toucheactiver = true}
 	
-
 
 // Animations du joueur1
 
@@ -50,3 +50,4 @@ else if keyboard_check(ord("S")) && (global.menu = false)
 { 
 	sprite_index = sprite_testdown;
 }
+

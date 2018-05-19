@@ -5,9 +5,6 @@ global.menu = false;
 if keyboard_check_pressed(vk_escape) {
 	if paused_ {
 		paused_ = false;
-		if sprite_exists(pause_screen) {
-			sprite_delete(pause_screen);
-		}
 		instance_activate_all();
 		audio_play_sound(snd_menu_switch, 1, false);
 		instance_deactivate_object(paustest);

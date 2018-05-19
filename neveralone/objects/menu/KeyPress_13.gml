@@ -15,6 +15,7 @@ switch (menu_index) {
 	room_goto(rm_menu);
 	global.createParty = true;
 	global.loadParty = true;
+	global.continue = true;
 	
 	break;
 	

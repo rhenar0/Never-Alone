@@ -7,6 +7,7 @@ global.MPLaunch = 0;
 global.joinParty = false;
 global.createParty = false;
 global.loadParty = false;
+global.continue = false;
 menu_x = x;
 menu_y = y;
 button_h = 52;
