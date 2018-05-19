@@ -5,20 +5,16 @@ switch (menu_index) {
 	
 	case 0:
 	audio_play_sound(snd_menu_switch, 1, false);
-	room_goto(depart01);
+	room_goto(rm_menu);
 	global.menu = false;
+	global.createParty = true;
 	break;
 	
 	case 1:
 	audio_play_sound(snd_menu_switch, 1, false);
-	if (global.Save) {
-		game_load("Save.dat");
-		global.menu = false;
-		}
-	instance_create_layer(850,25,"TextBoxLayer", o_savemessage);
-	with (o_savemessage) {
-		loadConfirm= true;
-	}
+	room_goto(rm_menu);
+	global.createParty = true;
+	global.loadParty = true;
 	
 	break;
 	
@@ -34,8 +30,9 @@ switch (menu_index) {
 	break;
 	
 	case 2:
+	global.joinParty = true;
 	room_goto(rm_menu)
-	
+	break;
 	
 	
 }

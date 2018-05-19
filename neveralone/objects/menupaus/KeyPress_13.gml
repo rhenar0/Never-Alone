@@ -4,14 +4,12 @@
 switch (menu_index) {
 	
 	case 0:
-	audio_play_sound(snd_menu_switch, 1, false);
-	if (global.Save) game_load("Save.dat");
-	instance_create_layer(850,25,"TextBoxLayer", o_savemessage);
-	with (o_savemessage) {
-		loadConfirm= true;
-	}
-	room_goto(4);
-	show_debug_message(global.roomPly);
+		    global.paused_ = false;
+			instance_activate_all();
+			audio_play_sound(snd_menu_switch, 1, false);
+			instance_deactivate_object(pausfond);
+			instance_deactivate_object(textpaus);
+			instance_deactivate_object(menupaus);
 	break;
 	
 	

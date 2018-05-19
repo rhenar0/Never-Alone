@@ -1,4 +1,4 @@
-if(keyboard_check_pressed(vk_tab) && (global.pause = 0) && (global.pouet = 0) && (global.menu = false)) { show_inventory = !show_inventory;
+if(keyboard_check_pressed(vk_tab) && (global.menu = false)) { show_inventory = !show_inventory;
 									 audio_play_sound(snd_menu_switch, 1, false);
 									
 								   } 
@@ -54,8 +54,9 @@ if(pickup_slot != -1) {
 					}
 			
 					// Créer l'item
-					// var inst = instance_create_layer(joueurtest.x, joueurtest.y, "Instances", obj_item);
-					znet_entity_create("obj","item","x", obj_player.x, "y", obj.player.y, "item_num", pitem, "x_frame", item_num mod (spr_width/cell_size), "y_frame", item_num div (spr_width/cell_size));
+					var inst = instance_create_layer(joueurtest.x, joueurtest.y, "Instances", obj_item);
+					item_num = pitem;
+					znet_entity_create("obj","item","x", obj_player.x, "y", obj_player.y, "item_num", pitem, "x_frame", item_num mod (spr_width/cell_size), "y_frame", item_num div (spr_width/cell_size));
 					with(inst){
 						item_num = pitem;
 						x_frame = item_num mod (spr_width/cell_size);

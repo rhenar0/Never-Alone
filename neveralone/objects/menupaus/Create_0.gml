@@ -7,7 +7,7 @@ button_h = 52;
 
 
 button[0] = "Reprendre";
-button[1] = "Quitter Never Alone";
+button[1] = "Quitter le jeu";
 
 buttons = array_length_1d(button);
 
