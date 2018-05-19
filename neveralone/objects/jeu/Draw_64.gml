@@ -1,0 +1,1 @@
+inventory_draw(250, 600);
