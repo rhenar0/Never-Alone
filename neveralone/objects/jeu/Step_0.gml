@@ -50,3 +50,7 @@ if keyboard_check_pressed(vk_tab) && global.paused_ = false {
 		audio_play_sound(snd_menu_switch, 1, false);
 	}
 }
+
+if keyboard_check_pressed(vk_alt) {
+	inventory_add_item(o_sword_item);
+}

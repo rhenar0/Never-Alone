@@ -9,6 +9,7 @@ playername = global.nickplayer;
 var _room_name = ini_read_string(playername, "Room", "");
 global.start_x = ini_read_real(playername, "Start x", 500);
 global.start_y = ini_read_real(playername, "Start y", 0);
+global.inventory = ini_read_inventory("Player", "Inventory", []);
 
 ini_close();
 

@@ -18,4 +18,3 @@ display_set_gui_size(_view_width, _view_height);
 
 inventory_create(6);
 inventory_add_item(o_key1_item);
-inventory_add_item(o_sword_item);
