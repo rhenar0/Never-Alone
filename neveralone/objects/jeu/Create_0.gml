@@ -7,6 +7,7 @@ inventaireouvert = false;
 item_index_ = 0;
 global.item[0] = noone;
 global.item[1] = noone;
+global.itemdrop = false;
 instance_deactivate_object(pausfond);
 instance_deactivate_object(textpaus);
 instance_deactivate_object(menupaus);

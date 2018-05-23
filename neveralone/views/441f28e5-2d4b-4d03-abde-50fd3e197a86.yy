@@ -9,7 +9,8 @@
         "88304ff1-c14e-4f61-af84-72b61f5953f7",
         "7685015c-cd4b-4db7-a0dc-0dda5390550b",
         "29f416d4-e505-40f8-9a23-0a7e13d94e3b",
-        "ba9da396-52df-4b19-93f6-961c0da9a2d0"
+        "ba9da396-52df-4b19-93f6-961c0da9a2d0",
+        "75565b77-7a50-4817-847c-218b3d40e167"
     ],
     "filterType": "GMScript",
     "folderName": "Inventaire",

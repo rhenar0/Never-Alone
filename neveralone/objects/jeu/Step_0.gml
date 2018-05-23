@@ -20,6 +20,10 @@ if inventaireouvert {
 		global.item[1] = global.inventory[item_index_];
 		audio_play_sound(snd_menu_switch, 1, false);
 	}
+	if keyboard_check_pressed(ord("J")) {
+		global.itemdrop = true;
+	}
+
 }
 
 

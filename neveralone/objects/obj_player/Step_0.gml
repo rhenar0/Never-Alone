@@ -21,6 +21,7 @@ if keyboard_check(ord("S")) && (global.menu = false) then { y += 5
 if keyboard_check(ord("Z")) && (global.menu = false) then { y -= 5
 	znet_entity_set_keys(nickname, "touch", 3);
 	toucheactiver = true}
+
 	
 
 // Animations du joueur1
