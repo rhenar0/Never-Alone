@@ -10,6 +10,8 @@ switch (menu_index) {
 			instance_deactivate_object(pausfond);
 			instance_deactivate_object(textpaus);
 			instance_deactivate_object(menupaus);
+			instance_deactivate_object(menucraft);
+			instance_deactivate_object(craftfond);
 	break;
 	
 	

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "313dec42-cdc5-44d7-94d0-51058cd64029",
+            "Value": {
+                "id": "a3a0d8f7-f6b6-496c-9dbf-ae9360058791",
+                "resourcePath": "objects\\menucraft\\menucraft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32b09523-6418-4d89-b17d-1d9d9a5d6091",
             "Value": {
                 "id": "3be8728e-1131-45d2-8d32-104dfeefc743",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "4126d8d5-17d6-4de5-b3e1-67e347308d5f",
+            "Value": {
+                "id": "1a1820f7-1be7-45ac-ae6f-3c15ef7eb643",
+                "resourcePath": "sprites\\s_bow_item\\s_bow_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "438f0b58-ab92-4717-ae64-77922d915de3",
             "Value": {
                 "id": "3e3fff5e-6d32-4cc7-9c00-55704b28660f",
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "502265b0-4b91-4c5b-a761-165a97307240",
+            "Value": {
+                "id": "9c73cb5e-67f9-496a-aaed-fbe95ec14fd1",
+                "resourcePath": "sprites\\crafting_sprite\\crafting_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "515c5f6a-9581-4ec3-91e6-3a11e7be351e",
             "Value": {
                 "id": "cc7c25f2-5da5-4b4a-bfa0-d1daa27d7d6a",
@@ -436,14 +460,6 @@
                 "id": "793d5bdf-bb10-4cd2-8742-5dccc953ebb3",
                 "resourcePath": "objects\\obj_znet_client\\obj_znet_client.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5868445f-18c2-420e-b173-c160ecdc68ab",
-            "Value": {
-                "id": "866fe9dd-eb16-49e8-8f53-455ac481b294",
-                "resourcePath": "sprites\\s_gem_shine_effect\\s_gem_shine_effect.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -588,6 +604,14 @@
                 "id": "4c8b6158-d89f-48ca-a51d-daf6b35f772d",
                 "resourcePath": "views\\7d984b25-5375-4128-b9c3-c98eabddd591.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8343213c-e13a-4e5b-bc8d-ff4b7558ba91",
+            "Value": {
+                "id": "9666a2d6-0f28-4652-9e95-e681704b1248",
+                "resourcePath": "objects\\o_bow_item\\o_bow_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -740,6 +764,14 @@
                 "id": "d39ee213-c999-4ae9-a84d-80991519f93c",
                 "resourcePath": "scripts\\znet_server_get_state\\znet_server_get_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a42ad3a5-f170-45f7-b80d-376f0d6fd6ac",
+            "Value": {
+                "id": "e6e476d7-e0cf-405f-8e50-618ae51e7d35",
+                "resourcePath": "objects\\craftfond\\craftfond.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -983,6 +1015,14 @@
             }
         },
         {
+            "Key": "d77da960-c95b-4efd-8d27-06cdea8a76b5",
+            "Value": {
+                "id": "b132f0f4-0d85-425e-8375-ca697f8eb146",
+                "resourcePath": "sprites\\s_bow_pickup\\s_bow_pickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9ed8fc8-5011-4f62-ac06-5fa3d78848d9",
             "Value": {
                 "id": "6f0e763e-6041-4c41-bc7d-75b6060ff029",
@@ -1132,6 +1172,14 @@
                 "id": "e2651c33-8866-4b19-b438-be8b18a74e77",
                 "resourcePath": "scripts\\__znet_client_entity_destroy\\__znet_client_entity_destroy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f3c8ba59-40cb-427b-a83f-e3f1cd04bdec",
+            "Value": {
+                "id": "e6b0e4f6-841e-40b4-90a5-a2be5f7eb5e4",
+                "resourcePath": "objects\\o_bow_pickup\\o_bow_pickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {

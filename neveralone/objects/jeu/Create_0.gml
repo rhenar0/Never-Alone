@@ -8,9 +8,12 @@ item_index_ = 0;
 global.item[0] = noone;
 global.item[1] = noone;
 global.itemdrop = false;
+global.crafting_ = 1;
 instance_deactivate_object(pausfond);
 instance_deactivate_object(textpaus);
 instance_deactivate_object(menupaus);
+instance_deactivate_object(menucraft);
+instance_deactivate_object(craftfond);
 
 
 var _view_width = camera_get_view_width(view_camera[0]);

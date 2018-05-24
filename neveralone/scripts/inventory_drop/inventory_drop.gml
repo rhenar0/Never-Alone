@@ -6,18 +6,23 @@ var _item_index = array_find_index(_item, global.inventory);
 if _i == item_index_ {
 		if instance_exists(_item) && global.itemdrop = true {
 			if (_item.sprite_ = spr_key1) {
+		
 				instance_create_layer(obj_player.x, obj_player.y, "Instances", o_key1_pickup);
-				global.itemdrop = false;
 				global.inventory[_i] = noone; 
 				global.itemdrop = false;
 			} 
 			if (_item.sprite_ = s_sword_item) {
+		
 				instance_create_layer(obj_player.x, obj_player.y, "Instances", o_sword_pickup);
-				global.itemdrop = false;
 				global.inventory[_i] = noone; 
 				global.itemdrop = false;
 			} 
-			
+			if (_item.sprite_ = s_bow_item) {
+	
+				instance_create_layer(obj_player.x, obj_player.y, "Instances", o_bow_pickup);
+				global.inventory[_i] = noone; 
+				global.itemdrop = false;
+			} 
 			
 			
 			
