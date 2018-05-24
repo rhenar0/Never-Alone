@@ -57,7 +57,11 @@ if inventaireouvert {
 	#endregion
 
 
-
+if znet_entity_exists("key") == true {
+	instance_create_layer(obj_player.x, obj_player.y, "Instances", o_key1_pickup);
+} else if znet_entity_exists("key") == false {
+	show_debug_message(znet_entity_exists("key"));
+}
 
 
 if keyboard_check_pressed(vk_escape) {
